@@ -1,0 +1,32 @@
+{
+  "upload_type": "software",
+  "title": "grounded-ai-evals: a four-layer method for evaluating AI systems that answer with evidence",
+  "description": "<p>A four-layer method for evaluating AI systems that are supposed to answer with evidence &mdash; retrieval-augmented assistants, knowledge-graph question answering, GraphRAG-style pipelines &mdash; together with a dependency-free Python reference implementation.</p><p>The layers are ordered so that each is only meaningful once the one above it holds: graph correctness, ontology hygiene, answer groundedness, and baseline comparison. The library computes citation precision and recall, unsupported rate, abstention split into correct and over-cautious, provenance coverage and judge agreement (Cohen's kappa), and renders a release gate that blocks on named checks rather than on a weighted mean.</p><p>The documentation maps the method to public standards and benchmarks (SHACL, OWL, OOPS!, OAEI, ALCE, FActScore, RAGAS, BFCL) and to the EU AI Act articles the resulting evidence serves.</p>",
+  "creators": [
+    {
+      "name": "Bornhäußer, Leonardo",
+      "orcid": "0009-0005-6464-5179",
+      "affiliation": "Creativate Technologies GmbH, Berlin, Germany"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "evaluation",
+    "knowledge graphs",
+    "ontology engineering",
+    "retrieval-augmented generation",
+    "large language models",
+    "provenance",
+    "citation grounding",
+    "EU AI Act"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/adminleo/grounded-ai-evals",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
