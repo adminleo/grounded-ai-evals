@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "grounded-ai-evals: a four-layer method for evaluating AI systems that answer with evidence"
+message: "If you use this method or library, please cite it."
+type: software
+authors:
+  - family-names: "Bornhäusser"
+    given-names: "Leonardo"
+repository-code: "https://github.com/adminleo/grounded-ai-evals"
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-11-10"
+keywords:
+  - evaluation
+  - knowledge graphs
+  - retrieval-augmented generation
+  - ontology engineering
+  - EU AI Act

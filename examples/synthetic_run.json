@@ -1,0 +1,37 @@
+{
+  "dataset_version": "synthetic-v1",
+  "_comment": "Invented numbers. Replace with your own run output.",
+  "graph": { "stale_share": 0.06 },
+  "nodes": [
+    {"id": "n1", "source": "register-extract-2026-03"},
+    {"id": "n2", "source": "annual-report-2025"},
+    {"id": "n3", "source": "register-extract-2026-03"},
+    {"id": "n4", "source": null},
+    {"id": "n5", "source": "gazette-2026-01"}
+  ],
+  "ontology": {
+    "shacl_violations_per_1k": 0.4,
+    "competency_questions_answerable": 0.92
+  },
+  "calibration": {
+    "human": ["supported","supported","unsupported","supported","unsupported","supported","unsupported","supported","supported","unsupported"],
+    "judge": ["supported","supported","unsupported","supported","supported","supported","unsupported","supported","supported","unsupported"]
+  },
+  "baselines": { "vs_plain_llm": 0.71, "vs_rag": 0.58 },
+  "answers": [
+    {"id": "q1", "abstained": false, "correct": true, "statements": [
+      {"needs_evidence": true,  "citations": [{"supports": true}]},
+      {"needs_evidence": true,  "citations": [{"supports": true}, {"supports": false}]},
+      {"needs_evidence": false, "citations": []}
+    ]},
+    {"id": "q2", "abstained": false, "correct": true, "statements": [
+      {"needs_evidence": true, "citations": [{"supports": true}]},
+      {"needs_evidence": true, "citations": []}
+    ]},
+    {"id": "q3", "abstained": true,  "evidence_existed": false},
+    {"id": "q4", "abstained": true,  "evidence_existed": true},
+    {"id": "q5", "abstained": false, "correct": false, "statements": [
+      {"needs_evidence": true, "citations": [{"supports": false}]}
+    ]}
+  ]
+}
