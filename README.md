@@ -1,6 +1,7 @@
 # grounded-ai-evals
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24100702.svg)](https://doi.org/10.5281/zenodo.24100702)
+[![tests](https://github.com/adminleo/grounded-ai-evals/actions/workflows/tests.yml/badge.svg)](https://github.com/adminleo/grounded-ai-evals/actions/workflows/tests.yml)
 
 A four-layer method for evaluating AI systems that are supposed to answer **with
 evidence** — retrieval-augmented assistants, knowledge-graph question answering,
@@ -125,6 +126,18 @@ model calls — bring your own, emit the numbers, feed them in.
 Written from production experience building grounded answering over knowledge
 graphs; the method generalises, which is why it is published without any part of
 that system.
+
+## Citing this
+
+Archived on Zenodo. The DOI above resolves to the latest version; cite a
+specific one from its own record if you need the exact code you ran.
+
+> Bornhäußer, L. (2026). *grounded-ai-evals: a four-layer method for evaluating
+> AI systems that answer with evidence*. Zenodo.
+> https://doi.org/10.5281/zenodo.24100702
+
+[`CITATION.cff`](CITATION.cff) carries the machine-readable form; GitHub's
+"Cite this repository" button reads it.
 
 ## License
 

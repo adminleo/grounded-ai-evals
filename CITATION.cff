@@ -17,3 +17,10 @@ keywords:
   - retrieval-augmented generation
   - ontology engineering
   - EU AI Act
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24100702"
+    description: "Concept DOI — always resolves to the latest version"
+  - type: doi
+    value: "10.5281/zenodo.24100703"
+    description: "Version DOI — v0.1.0"
