@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Bornhäusser"
     given-names: "Leonardo"
+    orcid: "https://orcid.org/0009-0005-6464-5179"
 repository-code: "https://github.com/adminleo/grounded-ai-evals"
 license: Apache-2.0
 version: 0.1.0
