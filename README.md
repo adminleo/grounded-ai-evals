@@ -1,5 +1,7 @@
 # grounded-ai-evals
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24100702.svg)](https://doi.org/10.5281/zenodo.24100702)
+
 A four-layer method for evaluating AI systems that are supposed to answer **with
 evidence** — retrieval-augmented assistants, knowledge-graph question answering,
 GraphRAG-style pipelines — plus a small dependency-free Python library that

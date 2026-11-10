@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0005-6464-5179"
 repository-code: "https://github.com/adminleo/grounded-ai-evals"
 license: Apache-2.0
+doi: "10.5281/zenodo.24100702"
 version: 0.1.0
 date-released: "2026-11-10"
 keywords:
